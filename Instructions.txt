@@ -1,0 +1,5 @@
+django-admin startproject algorithms
+virtualenv env
+source env/bin/activate
+pip install django-admin # for installing in env
+python3 manage.py runserver
